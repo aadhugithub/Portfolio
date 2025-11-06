@@ -1,0 +1,18 @@
+body {
+  background-color: theme("colors.dark");
+  color: theme("colors.light");
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+a {
+  color: theme("colors.primary");
+  transition: color 0.3s theme("transitionTimingFunction.out-soft");
+}
+
+a:hover {
+  color: theme("colors.gray.100");
+}
