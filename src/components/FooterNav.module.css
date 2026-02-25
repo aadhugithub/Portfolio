@@ -1,0 +1,8 @@
+.a11yPanelWrapper {
+    position: fixed;
+    bottom: 8rem;
+    /* space above the dock */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2000;
+}
