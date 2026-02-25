@@ -89,34 +89,34 @@
 
 /* Accessibility: High Contrast */
 [data-a11y-high-contrast="true"] {
-  --bg-primary: #000000;
-  --text-primary: #ffffff;
-  --text-secondary: #ffffff;
-  --border-color: #ffffff;
-  --interactive-bg: #ffffff;
-  --interactive-text: #000000;
+  --bg-primary: #0a0a0a;
+  --text-primary: #fafafa;
+  --text-secondary: #fafafa;
+  --border-color: #fafafa;
+  --interactive-bg: #fafafa;
+  --interactive-text: #0a0a0a;
   --focus-ring-color: #ffff00;
   --focus-ring-width: 4px;
 }
 
 [data-a11y-high-contrast="true"][data-theme="light"] {
-  --bg-primary: #ffffff;
-  --text-primary: #000000;
-  --text-secondary: #000000;
-  --border-color: #000000;
-  --interactive-bg: #000000;
-  --interactive-text: #ffffff;
+  --bg-primary: #fafafa;
+  --text-primary: #0a0a0a;
+  --text-secondary: #0a0a0a;
+  --border-color: #0a0a0a;
+  --interactive-bg: #0a0a0a;
+  --interactive-text: #fafafa;
   --focus-ring-color: #0000ff;
 }
 
 /* Accessibility: Color Blind Safe (just a simple shift or ensures high lightness contrast)
    For minimal palettes, B&W is already colorblind safe, but we'll apply strong borders. */
 [data-a11y-color-blind="true"] {
-  --focus-ring-color: #000000;
+  --focus-ring-color: #0a0a0a;
 }
 
 [data-theme="dark"][data-a11y-color-blind="true"] {
-  --focus-ring-color: #ffffff;
+  --focus-ring-color: #fafafa;
 }
 
 /* Accessibility: Text Size */
