@@ -7,7 +7,7 @@ const HeroSection = () => {
             <div className="container">
                 <div className={styles.content}>
                     <div className={styles.header}>
-                        <p className={styles.name}>Adarsh N &mdash; Product Designer</p>
+                        <p className={styles.name}>Adarsh N &mdash; UI UX Designer</p>
                         <h1 className={styles.headline}>
                             I design systems that simplify complex workflows and help teams operate with clarity.
                         </h1>
@@ -20,8 +20,8 @@ const HeroSection = () => {
                         <a href="#work" className={styles.primaryCta}>
                             View Work <ArrowDownRight size={18} />
                         </a>
-                        <a href="mailto:hello@example.com" className={styles.secondaryCta}>
-                            Contact
+                        <a href="tel:+919539372035" className={styles.secondaryCta}>
+                            Call Me
                         </a>
                     </div>
                 </div>

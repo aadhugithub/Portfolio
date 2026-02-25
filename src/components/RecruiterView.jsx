@@ -51,8 +51,8 @@ const RecruiterView = () => {
                 <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className={styles.primaryBtn}>
                     Download Resume
                 </a>
-                <a href="mailto:hello@example.com" className={styles.secondaryBtn}>
-                    Contact
+                <a href="tel:+919539372035" className={styles.secondaryBtn}>
+                    Call Me
                 </a>
             </div>
         </div>
